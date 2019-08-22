@@ -21,7 +21,6 @@
 		58E3D17122FD0672001F9BB4 /* kkhwTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E3D17022FD0672001F9BB4 /* kkhwTests.swift */; };
 		58E3D1BA22FD2B1A001F9BB4 /* OpenWeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E3D1B922FD2B1A001F9BB4 /* OpenWeatherService.swift */; };
 		58E3D1BC22FD394E001F9BB4 /* WeatherModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E3D1BB22FD394E001F9BB4 /* WeatherModels.swift */; };
-		58F29DC9230BC84E00FD74F4 /* CLGeocoder+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F29DC8230BC84E00FD74F4 /* CLGeocoder+Rx.swift */; };
 		58FDDBD8230A7F2000867D6B /* WeatherInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FDDBD7230A7F2000867D6B /* WeatherInteractor.swift */; };
 		58FDDBDA230A7F4100867D6B /* WeatherPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FDDBD9230A7F4100867D6B /* WeatherPresenter.swift */; };
 		58FDDBDD230A937000867D6B /* ForecastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FDDBDB230A937000867D6B /* ForecastCell.swift */; };
@@ -32,6 +31,7 @@
 		C227113422FEA1E700E06EB1 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C227113322FEA1E700E06EB1 /* LocationService.swift */; };
 		C227113A22FFC42B00E06EB1 /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C227113822FFC42B00E06EB1 /* WeatherCell.swift */; };
 		C227113B22FFC42B00E06EB1 /* WeatherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C227113922FFC42B00E06EB1 /* WeatherCell.xib */; };
+		C22EE5CD230EEA49003F8F84 /* CLGeocoder+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22EE5CC230EEA49003F8F84 /* CLGeocoder+Rx.swift */; };
 		C24618602307B1DC00D59710 /* WeatherPublishService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C246185F2307B1DC00D59710 /* WeatherPublishService.swift */; };
 		C24618632307BCA300D59710 /* UIView+Autolayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24618622307BCA300D59710 /* UIView+Autolayout.swift */; };
 /* End PBXBuildFile section */
@@ -67,7 +67,6 @@
 		58E3D17222FD0672001F9BB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58E3D1B922FD2B1A001F9BB4 /* OpenWeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherService.swift; sourceTree = "<group>"; };
 		58E3D1BB22FD394E001F9BB4 /* WeatherModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModels.swift; sourceTree = "<group>"; };
-		58F29DC8230BC84E00FD74F4 /* CLGeocoder+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CLGeocoder+Rx.swift"; path = "../../../Downloads/64bda2a32c18b8c28e1e22085a05df5a-de014ec6236fe804ca714225ee06358f71025f3c 3/CLGeocoder+Rx.swift"; sourceTree = "<group>"; };
 		58FDDBD7230A7F2000867D6B /* WeatherInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherInteractor.swift; sourceTree = "<group>"; };
 		58FDDBD9230A7F4100867D6B /* WeatherPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherPresenter.swift; sourceTree = "<group>"; };
 		58FDDBDB230A937000867D6B /* ForecastCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastCell.swift; sourceTree = "<group>"; };
@@ -79,6 +78,7 @@
 		C227113322FEA1E700E06EB1 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 		C227113822FFC42B00E06EB1 /* WeatherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
 		C227113922FFC42B00E06EB1 /* WeatherCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherCell.xib; sourceTree = "<group>"; };
+		C22EE5CC230EEA49003F8F84 /* CLGeocoder+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLGeocoder+Rx.swift"; sourceTree = "<group>"; };
 		C246185F2307B1DC00D59710 /* WeatherPublishService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WeatherPublishService.swift; path = kkhw/Services/WeatherService/Api/WeatherPublishService.swift; sourceTree = SOURCE_ROOT; };
 		C24618622307BCA300D59710 /* UIView+Autolayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Autolayout.swift"; sourceTree = "<group>"; };
 		E45969CFAD17E7DEB539BEB7 /* Pods-kkhw.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kkhw.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kkhw/Pods-kkhw.debug.xcconfig"; sourceTree = "<group>"; };
@@ -309,7 +309,7 @@
 			isa = PBXGroup;
 			children = (
 				C24618622307BCA300D59710 /* UIView+Autolayout.swift */,
-				58F29DC8230BC84E00FD74F4 /* CLGeocoder+Rx.swift */,
+				C22EE5CC230EEA49003F8F84 /* CLGeocoder+Rx.swift */,
 			);
 			path = extensions;
 			sourceTree = "<group>";
@@ -486,6 +486,7 @@
 			files = (
 				584D16A42303F63A00B7C694 /* SearchPlaceInteractor.swift in Sources */,
 				58FDDBD8230A7F2000867D6B /* WeatherInteractor.swift in Sources */,
+				C22EE5CD230EEA49003F8F84 /* CLGeocoder+Rx.swift in Sources */,
 				58E3D15E22FD0671001F9BB4 /* HomeViewController.swift in Sources */,
 				C24618602307B1DC00D59710 /* WeatherPublishService.swift in Sources */,
 				58E3D15C22FD0671001F9BB4 /* AppDelegate.swift in Sources */,
@@ -494,7 +495,6 @@
 				58BE0CE2230E5D8C00720EF8 /* HomeInteractor.swift in Sources */,
 				584D169823029A4300B7C694 /* SearchPlaceViewController.swift in Sources */,
 				58FDDBDA230A7F4100867D6B /* WeatherPresenter.swift in Sources */,
-				58F29DC9230BC84E00FD74F4 /* CLGeocoder+Rx.swift in Sources */,
 				C227113422FEA1E700E06EB1 /* LocationService.swift in Sources */,
 				C227113222FE880900E06EB1 /* ServiceRequester.swift in Sources */,
 				C24618632307BCA300D59710 /* UIView+Autolayout.swift in Sources */,
